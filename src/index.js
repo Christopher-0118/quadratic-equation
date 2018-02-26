@@ -8,7 +8,7 @@ module.exports = function solveEquation(equation) {
   if (d < 0) {
     return;
   } else if ( d === 0) {
-    return -b / 2 * a;
+    return -b / (2 * a);
   } else if (d > 0) {
     let roots = [];
     
